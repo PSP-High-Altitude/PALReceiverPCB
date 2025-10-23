@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "PALReceiver-altium-import")(type "KiCad")(uri "${KIPRJMOD}/PALReceiver-altium-import.kicad_sym")(options "")(descr ""))
+)
