@@ -1,5 +1,6 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "PALReceiver-altium-import")(type "KiCad")(uri "${KIPRJMOD}/PALReceiver-altium-import.kicad_sym")(options "")(descr ""))
   (lib (name "Radio-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Radio-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4105-GF-A.kicad_sym")(options "")(descr ""))
 )
