@@ -2324,6 +2324,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2484,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c365002-519c-4964-8649-d3a41ab6a9d6")
+	)
+	(wire
+		(pts
 			(xy 214.63 33.02) (xy 220.98 33.02)
 		)
 		(stroke
@@ -2584,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c35fb6-7759-4b85-b02d-3bf47928abc8")
+	)
+	(wire
+		(pts
 			(xy 217.17 38.1) (xy 220.98 38.1)
 		)
 		(stroke
@@ -2621,6 +2766,16 @@
 			(type default)
 		)
 		(uuid "7d42396a-f7d6-47ae-b812-b5b26a24c019")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865fa1ca-9f5d-4abc-b611-d105df8a9324")
 	)
 	(wire
 		(pts
@@ -2714,6 +2869,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 101.6) (xy 186.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db12ca38-e3aa-42ad-b241-4c46b21236e4")
+	)
+	(wire
+		(pts
 			(xy 222.25 129.54) (xy 232.41 129.54)
 		)
 		(stroke
@@ -2762,6 +2927,16 @@
 		)
 		(uuid "fb138c08-b4fa-4ce0-b47d-854f14fd725d")
 	)
+	(label "RXTX"
+		(at 181.61 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53f0512a-0500-435c-9cab-53b7703a5477")
+	)
 	(label "DN"
 		(at 265.43 38.1 0)
 		(effects
@@ -2772,6 +2947,26 @@
 		)
 		(uuid "71d02174-783f-4829-a6f3-72aba6bc5532")
 	)
+	(label "RXTX"
+		(at 157.48 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78d2c462-16b7-47e4-b8cb-7b4c4399fcf6")
+	)
+	(label "TXRX"
+		(at 157.48 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dda6ccb-79c1-4a44-8251-9683f3349399")
+	)
 	(label "DP"
 		(at 265.43 35.56 0)
 		(effects
@@ -2781,6 +2976,16 @@
 			(justify left bottom)
 		)
 		(uuid "82cbd505-c8cd-4b8e-8a7c-c2bbad5981fc")
+	)
+	(label "TXRX"
+		(at 181.61 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c49419-14ec-4e39-bf0b-81ab430671bf")
 	)
 	(label "DP"
 		(at 226.06 93.98 0)
@@ -3877,6 +4082,72 @@
 			(project "PALReceiver"
 				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/329eb62d-f8d8-4a30-9cb6-995f07524828"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 207.01 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b65838-0f89-4937-8f39-be409cf39e2a")
+		(property "Reference" "#PWR037"
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 208.788 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be34c32a-b809-4ce9-859f-93f3dd0a29b5")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/329eb62d-f8d8-4a30-9cb6-995f07524828"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
