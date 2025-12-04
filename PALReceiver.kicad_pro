@@ -483,9 +483,6 @@
       "/Radio/PA_BOOST": [
         "50Z"
       ],
-      "/Radio/RFI_LF": [
-        "50Z"
-      ],
       "Net-(C1-Pad2)": [
         "50Z"
       ],
@@ -522,16 +519,10 @@
       "Net-(LORA1-Signal)": [
         "50Z"
       ],
-      "Net-(U2-PA_BOOST)": [
-        "50Z"
-      ],
       "Net-(U2-RFI_LF)": [
         "50Z"
       ],
       "Net-(U2A-RFI_LF)": [
-        "50Z"
-      ],
-      "Net-(U3-RFI_LF)": [
         "50Z"
       ],
       "Net-(X1-J1)": [

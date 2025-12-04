@@ -951,6 +951,614 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Altium Content Vault:root_0_SMTC-SX127X-QFN-28_Altium Content Vault"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Power Long Range Transceiver, 137 to 1020 MHz, -40 to 85 degC, 28-Pin QFN, RoHS, Tape and Reel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SMTC-QFN-28_V*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_SMTC-SX127X-QFN-28_Altium Content Vault_1_0"
+				(rectangle
+					(start 30.48 0)
+					(end 0 -35.56)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "DIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "DIO1/DCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "DIO2/DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "DIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "DIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "DIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "NRESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -25.4 0)
+					(length 5.08)
+					(name "PA_BOOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -30.48 0)
+					(length 5.08)
+					(name "XTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "XTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "RXTX/RF_MOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -20.32 180)
+					(length 5.08)
+					(name "RFI_LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -22.86 180)
+					(length 5.08)
+					(name "RFO_LF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -30.48 180)
+					(length 5.08)
+					(name "RFI_HF_(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -33.02 180)
+					(length 5.08)
+					(name "RFO_HF_(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "root_0_SMTC-SX127X-QFN-28_Altium Content Vault_2_0"
+				(rectangle
+					(start 20.32 0)
+					(end 0 -17.78)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VBAT_ANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "VBAT_DIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "VBAT_RF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "VR_ANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "VR_DIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "VR_PA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Altium Content Vault:root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault"
 			(pin_names
 				(hide yes)
@@ -2705,615 +3313,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RF:SX1276"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 13.97 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SX1276"
-				(at 13.97 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "137 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "low-power lora transceiver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*1EP*6x6mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SX1276_0_1"
-				(rectangle
-					(start -12.7 25.4)
-					(end 12.7 -25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SX1276_1_1"
-				(pin bidirectional line
-					(at -15.24 15.24 0)
-					(length 2.54)
-					(name "XTA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 12.7 0)
-					(length 2.54)
-					(name "XTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 10.16 0)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
-					(length 2.54)
-					(name "DIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "DIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "DIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "DIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "DIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "DIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -12.7 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 -15.24 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -17.78 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -20.32 0)
-					(length 2.54)
-					(name "NSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 27.94 270)
-					(length 2.54)
-					(name "VBAT_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 27.94 270)
-					(length 2.54)
-					(name "VBAT_DIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 27.94 270)
-					(length 2.54)
-					(name "VBAT_RF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 27.94 270)
-					(length 2.54)
-					(name "VR_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 27.94 270)
-					(length 2.54)
-					(name "VR_DIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 10.16 180)
-					(length 2.54)
-					(name "PA_BOOST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "VR_PA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "RFO_LF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "RFI_LF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "RFO_HF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "RFI_HF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -15.24 180)
-					(length 2.54)
-					(name "RXTX/RF_MOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5093,6 +5092,300 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FP-C0603C-CF-MFG*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_1_1_0"
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy -2.54 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_2"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FP-C0603C-CF-MFG*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_2_1_0"
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy -2.54 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_3"
 			(pin_names
 				(hide yes)
@@ -5684,7 +5977,7 @@
 	)
 	(text "Cuttable"
 		(exclude_from_sim no)
-		(at 99.06 162.56 0)
+		(at 106.68 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5712,7 +6005,7 @@
 		(uuid "1697549d-08fc-4517-b907-2466e4e5c8ad")
 	)
 	(junction
-		(at 111.76 154.94)
+		(at 119.38 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17bfb8a6-c75a-4c6e-a806-87915b7487de")
@@ -5722,12 +6015,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c562faa-2839-48bd-a330-4d6613552cea")
-	)
-	(junction
-		(at 180.34 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f3f43ad-42b2-49bc-bef4-8cb817059050")
 	)
 	(junction
 		(at 226.06 71.12)
@@ -5751,7 +6038,7 @@
 		(at 190.5 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5285c4b1-cae2-4301-b74a-d6f5294702fd")
+		(uuid "446ed40b-5984-46a8-9a03-9a4d09873a70")
 	)
 	(junction
 		(at 241.3 160.02)
@@ -5760,10 +6047,10 @@
 		(uuid "53b59447-bb14-4406-a276-41cf6f770ea4")
 	)
 	(junction
-		(at 142.24 139.7)
+		(at 124.46 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b7f04e2-08fe-41ca-802e-47f2c082ec22")
+		(uuid "5914f2b1-49f1-4f57-9307-758eca699745")
 	)
 	(junction
 		(at 391.16 157.48)
@@ -5784,22 +6071,34 @@
 		(uuid "79b54601-8df2-4cb5-b699-7644a73523f0")
 	)
 	(junction
+		(at 160.02 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f223697-b42b-4c0a-ba3d-4331748ceed1")
+	)
+	(junction
 		(at 220.98 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8256dfbe-3456-4729-af97-e5ca10acfd80")
 	)
 	(junction
-		(at 93.98 154.94)
+		(at 160.02 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7ee6ff-2af5-475e-9dc1-55d3cf49be49")
+	)
+	(junction
+		(at 160.02 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc6f39c-ced4-4a21-8a19-95396d055d52")
+	)
+	(junction
+		(at 101.6 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5982a61-a8a6-4294-a9f9-e4e9a2edcc47")
-	)
-	(junction
-		(at 139.7 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a6bdbd-bcb9-42c3-9819-f8d0a6becd22")
 	)
 	(junction
 		(at 388.62 157.48)
@@ -5850,50 +6149,36 @@
 		(uuid "dab79780-d114-4c43-a44c-73c39791d276")
 	)
 	(junction
-		(at 38.1 154.94)
+		(at 45.72 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eedf576c-966e-4bc4-b44e-8bda3f41ac70")
 	)
-	(no_connect
-		(at 129.54 167.64)
-		(uuid "07955238-179a-45fb-ad01-51edc91e0a59")
+	(junction
+		(at 124.46 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5eafade-a9f3-40bc-bb8e-5aaa8da90336")
 	)
-	(no_connect
-		(at 129.54 157.48)
-		(uuid "49d330ac-0100-454a-90f5-6b4fd395b6e4")
+	(wire
+		(pts
+			(xy 157.48 208.28) (xy 160.02 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00267a73-661a-4d5a-bc71-2157928c2cce")
 	)
-	(no_connect
-		(at 129.54 172.72)
-		(uuid "52decf6d-9f5b-4d1d-816d-ba7b1565d5a5")
-	)
-	(no_connect
-		(at 129.54 175.26)
-		(uuid "556fae40-da2c-45a2-aaa9-3dce2eea0681")
-	)
-	(no_connect
-		(at 129.54 170.18)
-		(uuid "564f38fc-be8b-46ec-aed6-bf4a84132cbd")
-	)
-	(no_connect
-		(at 160.02 170.18)
-		(uuid "584b2c16-fb48-4645-bd07-a5844f8d4753")
-	)
-	(no_connect
-		(at 129.54 177.8)
-		(uuid "6bccfd6f-2a4e-48e2-8b39-9b284eaeefdc")
-	)
-	(no_connect
-		(at 160.02 172.72)
-		(uuid "b1e4e9e1-abbe-4fb4-bbda-b3cac1e2163d")
-	)
-	(no_connect
-		(at 129.54 165.1)
-		(uuid "d846ea97-7598-42ca-9bc5-fa0dd0169037")
-	)
-	(no_connect
-		(at 160.02 175.26)
-		(uuid "efcd793f-adf4-486c-8458-efdd66f18a88")
+	(wire
+		(pts
+			(xy 157.48 205.74) (xy 160.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e24636-756c-4e05-a7c6-628f9d9c2487")
 	)
 	(wire
 		(pts
@@ -5927,6 +6212,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 208.28) (xy 160.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d60c850-31ba-4e06-a375-d43dc954078e")
+	)
+	(wire
+		(pts
 			(xy 256.54 160.02) (xy 256.54 149.86)
 		)
 		(stroke
@@ -5934,16 +6229,6 @@
 			(type default)
 		)
 		(uuid "0e95a9d2-4f8f-4408-b8c3-f48d53af038a")
-	)
-	(wire
-		(pts
-			(xy 147.32 142.24) (xy 147.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ea66413-2d52-41c7-94a3-c69de6d09faf")
 	)
 	(wire
 		(pts
@@ -5967,6 +6252,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 210.82) (xy 114.3 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1206fd5c-92a3-474a-8e55-13f92e3b8dc4")
+	)
+	(wire
+		(pts
 			(xy 187.96 160.02) (xy 190.5 160.02)
 		)
 		(stroke
@@ -5987,13 +6282,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 142.24 139.7)
+			(xy 91.44 210.82) (xy 91.44 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bafdf84-60c1-4596-9fcb-18d7bc6532d8")
+		(uuid "16534013-e6ab-4359-93d6-aaa2180e7636")
 	)
 	(wire
 		(pts
@@ -6047,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 154.94) (xy 129.54 154.94)
+			(xy 119.38 144.78) (xy 121.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6077,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 185.42) (xy 172.72 185.42)
+			(xy 162.56 129.54) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6097,7 +6392,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 160.02) (xy 48.26 167.64)
+			(xy 55.88 149.86) (xy 55.88 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 160.02) (xy 111.76 160.02)
+			(xy 101.6 149.86) (xy 119.38 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6147,13 +6442,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 167.64 130.81)
+			(xy 121.92 139.7) (xy 109.22 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4840bd9e-80cc-4f38-b73c-d5ee138bc468")
+		(uuid "4923f0ff-d7c5-4bf6-9193-6bdb8c4b94c3")
 	)
 	(wire
 		(pts
@@ -6167,17 +6462,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 156.21 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb9cb4c-7875-41b2-ba53-9003b42eeb22")
-	)
-	(wire
-		(pts
-			(xy 116.84 185.42) (xy 129.54 185.42)
+			(xy 162.56 119.38) (xy 175.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6207,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 154.94) (xy 99.06 154.94)
+			(xy 101.6 144.78) (xy 106.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6277,16 +6562,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 162.56) (xy 180.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65987448-3cf0-486b-8426-5c3dd3a4b39e")
-	)
-	(wire
-		(pts
 			(xy 396.24 157.48) (xy 393.7 157.48)
 		)
 		(stroke
@@ -6304,6 +6579,16 @@
 			(type default)
 		)
 		(uuid "69e303b1-bf2e-4818-9e74-d7ff015b0ed5")
+	)
+	(wire
+		(pts
+			(xy 104.14 208.28) (xy 127 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af3134c-9863-498e-8b8d-39d05528855a")
 	)
 	(wire
 		(pts
@@ -6327,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 160.02) (xy 129.54 160.02)
+			(xy 109.22 134.62) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6347,6 +6632,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 198.12) (xy 124.46 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8b73ed-9daa-4bcb-b67d-f5bf137ad157")
+	)
+	(wire
+		(pts
 			(xy 241.3 160.02) (xy 243.84 160.02)
 		)
 		(stroke
@@ -6357,16 +6652,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 128.27) (xy 156.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7216a374-3c1a-4bf3-85ab-7e8a3156072e")
-	)
-	(wire
-		(pts
 			(xy 273.05 160.02) (xy 276.86 160.02)
 		)
 		(stroke
@@ -6374,6 +6659,26 @@
 			(type default)
 		)
 		(uuid "73c0b628-5b87-4742-966e-a8cbb559b862")
+	)
+	(wire
+		(pts
+			(xy 104.14 218.44) (xy 104.14 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cfd506-4dd8-4638-be94-02986f2766ae")
+	)
+	(wire
+		(pts
+			(xy 160.02 208.28) (xy 160.02 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cf2af0-d527-44a9-a606-8b55355d6ec8")
 	)
 	(wire
 		(pts
@@ -6394,26 +6699,6 @@
 			(type default)
 		)
 		(uuid "7a84519f-65ae-4fe4-b69d-4053388b8d2b")
-	)
-	(wire
-		(pts
-			(xy 177.8 134.62) (xy 190.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bec6cde-2e6c-42be-af81-e85c9b395602")
-	)
-	(wire
-		(pts
-			(xy 144.78 142.24) (xy 144.78 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7b643e-7c2c-48a5-a5f9-d5f116882b41")
 	)
 	(wire
 		(pts
@@ -6467,16 +6752,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 139.7) (xy 142.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e873c17-39b2-4030-8d2c-bd59940c71b6")
-	)
-	(wire
-		(pts
 			(xy 388.62 160.02) (xy 388.62 157.48)
 		)
 		(stroke
@@ -6497,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 154.94) (xy 38.1 154.94)
+			(xy 60.96 144.78) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6517,13 +6792,33 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 160.02) (xy 38.1 154.94)
+			(xy 160.02 205.74) (xy 160.02 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5ea042-a8d8-43dd-898c-911195dd5802")
+	)
+	(wire
+		(pts
+			(xy 45.72 149.86) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c2bdaf0-fa75-4e41-bcf6-f2405302d978")
+	)
+	(wire
+		(pts
+			(xy 124.46 203.2) (xy 124.46 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd57b7b-54f7-4502-99d0-0cad5e777bda")
 	)
 	(wire
 		(pts
@@ -6537,17 +6832,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 177.8) (xy 172.72 177.8)
+			(xy 157.48 210.82) (xy 160.02 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6af1746-4729-4893-ba91-83c20599b5c7")
+		(uuid "a5dc1aa7-71cc-45dd-8301-4822402de74c")
 	)
 	(wire
 		(pts
-			(xy 38.1 154.94) (xy 35.56 154.94)
+			(xy 91.44 218.44) (xy 91.44 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6afea96-144a-4ee8-8284-9a9526d9a2f9")
+	)
+	(wire
+		(pts
+			(xy 45.72 144.78) (xy 43.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6567,6 +6872,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 198.12) (xy 127 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe23e86-54c8-4940-8e1a-7d0e02b80f4e")
+	)
+	(wire
+		(pts
 			(xy 228.6 81.28) (xy 233.68 81.28)
 		)
 		(stroke
@@ -6577,17 +6892,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 139.7) (xy 144.78 139.7)
+			(xy 124.46 200.66) (xy 127 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3d735ba-7ad3-4d2d-9ac5-96b95e2fe1b3")
+		(uuid "b256095c-b134-46e8-818b-fed074bb3ad0")
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 111.76 154.94)
+			(xy 119.38 149.86) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6597,17 +6912,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 139.7 139.7)
+			(xy 127 203.2) (xy 124.46 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b76eb57f-247a-401a-be71-31400f4972d8")
+		(uuid "b736ef5c-987f-4e19-95a7-6864da981eac")
 	)
 	(wire
 		(pts
-			(xy 93.98 154.94) (xy 93.98 160.02)
+			(xy 101.6 144.78) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6627,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 165.1) (xy 93.98 165.1)
+			(xy 111.76 154.94) (xy 101.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6637,7 +6952,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 167.64) (xy 104.14 165.1)
+			(xy 91.44 205.74) (xy 127 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e52268-2d4c-4cb2-84ba-83406c671335")
+	)
+	(wire
+		(pts
+			(xy 111.76 157.48) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6664,6 +6989,16 @@
 			(type default)
 		)
 		(uuid "c93a4081-27f9-4430-a713-5f611225289d")
+	)
+	(wire
+		(pts
+			(xy 160.02 210.82) (xy 160.02 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fdc5b6-40f7-497a-a26a-b6039ac359cf")
 	)
 	(wire
 		(pts
@@ -6697,7 +7032,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 160.02) (xy 48.26 160.02)
+			(xy 60.96 149.86) (xy 55.88 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6717,13 +7052,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 142.24) (xy 149.86 128.27)
+			(xy 162.56 134.62) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7923564-cba3-44a7-b142-1755e728711f")
+		(uuid "d3221c5a-6207-4b99-977a-8fbce4b4fda2")
 	)
 	(wire
 		(pts
@@ -6737,23 +7072,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 167.64 125.73)
+			(xy 104.14 210.82) (xy 104.14 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e25253c5-fdb1-4aae-9ece-d78cae034ff0")
-	)
-	(wire
-		(pts
-			(xy 139.7 139.7) (xy 139.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a291c2-689b-40e1-b9fa-8db7675cd523")
+		(uuid "db2fb542-272b-474a-bf58-384e6dd0718a")
 	)
 	(wire
 		(pts
@@ -6797,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 190.5) (xy 129.54 190.5)
+			(xy 162.56 124.46) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6837,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 38.1 165.1)
+			(xy 45.72 157.48) (xy 45.72 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6847,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 154.94) (xy 111.76 154.94)
+			(xy 111.76 144.78) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6867,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 182.88) (xy 129.54 182.88)
+			(xy 162.56 116.84) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6877,7 +7202,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 187.96) (xy 129.54 187.96)
+			(xy 162.56 121.92) (xy 175.26 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6904,16 +7229,6 @@
 			(type default)
 		)
 		(uuid "f8689f94-c49c-4952-bc8f-2b80dc857631")
-	)
-	(wire
-		(pts
-			(xy 160.02 162.56) (xy 180.34 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8960185-5551-4720-982b-c6c6ba0b9744")
 	)
 	(wire
 		(pts
@@ -6947,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 198.12) (xy 124.46 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb881a2-76f8-44d4-a279-9effe14f3f09")
+	)
+	(wire
+		(pts
 			(xy 355.6 160.02) (xy 355.6 154.94)
 		)
 		(stroke
@@ -6954,6 +7279,16 @@
 			(type default)
 		)
 		(uuid "fe52e80b-805f-4a59-9f5e-59246ec371b1")
+	)
+	(wire
+		(pts
+			(xy 160.02 203.2) (xy 157.48 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea22cd3-3246-4e04-8220-90b7294c2744")
 	)
 	(wire
 		(pts
@@ -6975,8 +7310,28 @@
 		)
 		(uuid "ff1bc5f3-1d37-4614-b657-c37eb96dabf3")
 	)
+	(label "MISO"
+		(at 167.64 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1395ee84-15b7-45a8-9173-d6ff16e9dd1a")
+	)
+	(label "LORA_RXTX"
+		(at 162.56 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "174875e6-b5f6-4a90-a6ad-5dc981ed706e")
+	)
 	(label "NRST_WL"
-		(at 116.84 160.02 0)
+		(at 109.22 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6985,35 +7340,35 @@
 		)
 		(uuid "20deff98-58a2-4880-b7aa-f7c073241c5a")
 	)
+	(label "PA_BOOST"
+		(at 161.29 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33373d00-6042-434c-87a0-a060a3c70c23")
+	)
 	(label "MOSI"
-		(at 116.84 187.96 0)
+		(at 167.64 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "582a490b-85dc-4242-a5f1-8cef2cd2ebf5")
+		(uuid "36a37f16-4801-4a9e-a455-08061bad51ff")
 	)
-	(label "MISO"
-		(at 116.84 185.42 0)
+	(label "LORA_RXTX"
+		(at 330.2 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "61b6a1f6-ab66-4f47-beb2-aa89ab9801df")
-	)
-	(label "CS"
-		(at 116.84 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61effe1b-137f-4a80-9613-e67dbf6c5b5c")
+		(uuid "5a31754a-c2e9-4c3c-80fe-306c3836cafa")
 	)
 	(label "LORA_RXTX"
 		(at 320.04 149.86 0)
@@ -7025,55 +7380,55 @@
 		)
 		(uuid "87a14fd3-e1f6-4635-843f-23e255e4d5cf")
 	)
-	(label "LORA_RXTX"
-		(at 172.72 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc2e0af8-abcd-4428-89ee-1fcc9b1a291f")
-	)
-	(label "RFI_LF"
-		(at 177.8 134.62 0)
+	(label "PA_BOOST"
+		(at 109.22 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c005c568-0e92-4fe6-a578-e8e4fee23df6")
+		(uuid "8e4e0741-0eb0-46ed-bf79-93b9650e9a42")
+	)
+	(label "VR_PA"
+		(at 114.3 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93bfb7a8-09b6-44ac-b289-cd13fa1b8696")
+	)
+	(label "CS"
+		(at 167.64 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa503217-ba2d-4c54-8cdf-4adb3e804081")
+	)
+	(label "VR_PA"
+		(at 180.34 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3337dc3-3e38-42be-8cd3-fc7fc5e04f98")
 	)
 	(label "SCK"
-		(at 116.84 182.88 0)
+		(at 167.64 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dce5da12-4933-45c0-a7b8-151e1b60fdd8")
-	)
-	(label "RFI_LF"
-		(at 172.72 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f57be5f5-e26c-4231-9600-3d607ff773b8")
-	)
-	(label "LORA_RXTX"
-		(at 342.9 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6c3238a-6cc8-42ba-b5a3-65a9aa5c6f4e")
+		(uuid "e9877951-def0-4d93-87ac-13640fdf6204")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -7493,15 +7848,15 @@
 	)
 	(symbol
 		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 104.14 167.64 0)
+		(at 104.14 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05a4f3b8-c90f-45d0-a409-c28f45b18c31")
-		(property "Reference" "#PWR010"
-			(at 104.14 167.64 0)
+		(uuid "03c31345-dea0-47b5-884f-b2ed3db3ff78")
+		(property "Reference" "#PWR023"
+			(at 104.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 173.99 0)
+			(at 104.14 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 167.64 0)
+			(at 104.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 167.64 0)
+			(at 104.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7889,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 167.64 0)
+			(at 104.14 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4f971618-9988-48bc-8015-9a07ad1c2089")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio-altium-import:GND_POWER_GROUND")
+		(at 111.76 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05a4f3b8-c90f-45d0-a409-c28f45b18c31")
+		(property "Reference" "#PWR010"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7984,7 @@
 	)
 	(symbol
 		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 48.26 167.64 0)
+		(at 55.88 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7569,7 +7992,7 @@
 		(dnp no)
 		(uuid "09fdfab4-4358-4072-a351-0745d1d0e6b3")
 		(property "Reference" "#PWR09"
-			(at 48.26 167.64 0)
+			(at 55.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +8001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 173.99 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +8009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 167.64 0)
+			(at 55.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +8017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 167.64 0)
+			(at 55.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +8025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 167.64 0)
+			(at 55.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,6 +8114,492 @@
 				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
 					(reference "#PWR?")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium Content Vault:root_0_SMTC-SX127X-QFN-28_Altium Content Vault")
+		(at 132.08 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e6fbb20-9182-4836-a90f-8ec44bf7b4ec")
+		(property "Reference" "U3"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SX1276IMLTRT"
+			(at 132.08 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMTC-QFN-28_V"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Power Long Range Transceiver, 137 to 1020 MHz, -40 to 85 degC, 28-Pin QFN, RoHS, Tape and Reel"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER - OUTPUT" "20dBm"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "-"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATA RATE (MAX)" "300kbps"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER URL" "http://www.semtech.com/"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET URL" "http://www.semtech.com/images/datasheet/sx1276.pdf"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SENSITIVITY" "-148dBm"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FEATURED PRODUCT" "SX1276LongRangeTransceiver"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "TxRx+MCU"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RF FAMILY/STANDARD" "802.15.4"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCN DESIGN/SPECIFICATION" "CopperWire25/Mar/2014"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE REFERENCE" "QFN-28"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GPIO" "6"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" "137MHz~1.02GHz"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD PACKAGE" "3,000"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE DESCRIPTION" "28-Pin Quad Flat No-lead Package, Body 6 x 6 mm, Pitch 0.65 mm"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE - SUPPLY" "1.8V~3.7V"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" "RF/IFandRFID"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PROTOCOL" "LoRa™"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - TRANSMITTING" "20mA~120mA"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-40degC~85degC"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - RECEIVING" "10.8mA~12mA"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET VERSION" "Rev. 4, 03/2015"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MEMORY SIZE" "-"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ONLINE CATALOG" "SX1276,SX1277andSX1278"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGN RESOURCES" "SX127xReferenceDesignOverviewDevelopmentToolSelector"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Semtech"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIAL INTERFACES" "SPI"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMILY" "RFTransceiverICs"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG APPLICATION NOTES" "LoRaModulation:CrystalOscillatorGuidanceSX12xxSoftwareImplementationofDataWhiteningandCRCSX127xLoRaLowEnergyDesignGuideSX127xLoRaModemDesignersGuide"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MODULATION" "FSK,GFSK,GMSK,MSK,OOK"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape&Reel(TR)"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "28-VQFNExposedPad"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OTHER NAMES" "SX1276IMLTRTTR"
+			(at 126.492 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "ed201029-1840-4e16-a05c-b20c6a5330b6")
+		)
+		(pin "15"
+			(uuid "1d382963-edc8-4b3a-9e1d-b859e5871616")
+		)
+		(pin "2"
+			(uuid "c23f669e-52c5-4064-99a8-ae5c23952c51")
+		)
+		(pin "23"
+			(uuid "1a571c7c-69eb-4946-a550-a5e936cf6b68")
+		)
+		(pin "24"
+			(uuid "37869a19-e481-40f7-989d-fca9adb92aa4")
+		)
+		(pin "25"
+			(uuid "e4eb9ba6-e791-4922-a0fb-38f095f31da3")
+		)
+		(pin "26"
+			(uuid "cb8168e6-bece-4115-bac8-25c3599d0d2f")
+		)
+		(pin "29"
+			(uuid "7da47cff-92ca-458c-a872-708875ce8079")
+		)
+		(pin "3"
+			(uuid "ef381ff6-6368-481f-8d7c-82381dbbac56")
+		)
+		(pin "4"
+			(uuid "f7bfc843-cbf4-4b73-8f2e-dd4dcb21e090")
+		)
+		(pin "1"
+			(uuid "ce141c93-533e-46ca-950e-d52ebeb95a80")
+		)
+		(pin "10"
+			(uuid "850b2b32-8782-487a-9687-91fc6b8d6f9b")
+		)
+		(pin "11"
+			(uuid "d7239adb-345a-4060-8bda-c4bb4ffe7c4f")
+		)
+		(pin "12"
+			(uuid "dc86d33f-83fa-46a9-8fb4-3e441b56e414")
+		)
+		(pin "13"
+			(uuid "10feb543-7700-4bb0-b57f-909ac240fafa")
+		)
+		(pin "16"
+			(uuid "42fd5644-7623-48be-aac3-4da9c7ac8b12")
+		)
+		(pin "17"
+			(uuid "5fabe474-8d59-4385-92af-11479ff004f6")
+		)
+		(pin "18"
+			(uuid "2af2501f-9531-4a48-bc09-ca7df9b591ff")
+		)
+		(pin "19"
+			(uuid "ade9ac2d-a56f-4d55-a866-6b2be1a1aa7d")
+		)
+		(pin "20"
+			(uuid "d08453fb-c7a5-4fd6-aa22-6ca0928070e8")
+		)
+		(pin "21"
+			(uuid "d4273154-a807-4861-bc19-847db55d926e")
+		)
+		(pin "22"
+			(uuid "b1804f7d-0ec4-43b9-b164-4283a3ac9870")
+		)
+		(pin "27"
+			(uuid "ac41d0a1-77fc-4228-8f3b-7b2926e4b3d6")
+		)
+		(pin "28"
+			(uuid "71222ca8-fec3-4075-8397-66ca3407172a")
+		)
+		(pin "5"
+			(uuid "e80f12f1-8268-46ea-b0e2-46111124ab8c")
+		)
+		(pin "6"
+			(uuid "ca639b65-6fe3-415d-b1fe-e0ac8f2bff2f")
+		)
+		(pin "7"
+			(uuid "5aed523e-11d3-4c06-8135-e030eda30ec4")
+		)
+		(pin "8"
+			(uuid "57d63098-097c-449d-9227-67180a01c9f3")
+		)
+		(pin "9"
+			(uuid "45ae8815-9285-46cd-8564-04f80e441d25")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "U?")
+					(unit 2)
 				)
 			)
 		)
@@ -7857,130 +8766,6 @@
 			(project ""
 				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
 					(reference "X?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 156.21 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "218d64b7-ff9e-409e-9b17-ef3c84dd6fd3")
-		(property "Reference" "#PWR022"
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a3348934-3e9b-4668-9665-08122b22e062")
-		)
-		(instances
-			(project "PALReceiver"
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 167.64 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "218d64b7-ff9e-409e-9b17-ef3c84dd6fd3")
-		(property "Reference" "#PWR023"
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a3348934-3e9b-4668-9665-08122b22e062")
-		)
-		(instances
-			(project "PALReceiver"
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8774,7 +9559,7 @@
 	)
 	(symbol
 		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 38.1 167.64 0)
+		(at 45.72 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8782,7 +9567,7 @@
 		(dnp no)
 		(uuid "2a271afa-80e4-4e65-a0b4-0106f4a0a809")
 		(property "Reference" "#PWR08"
-			(at 38.1 167.64 0)
+			(at 45.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +9576,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 173.99 0)
+			(at 45.72 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +9584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 167.64 0)
+			(at 45.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +9592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 167.64 0)
+			(at 45.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 167.64 0)
+			(at 45.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,17 +9626,17 @@
 		)
 	)
 	(symbol
-		(lib_name "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_4")
+		(lib_name "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_2")
 		(lib_id "Altium Content Vault:root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault")
-		(at 167.64 130.81 0)
+		(at 91.44 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "353c551b-dcad-42e2-b4b1-91a307fe43ce")
-		(property "Reference" "C22"
-			(at 170.434 134.112 0)
+		(uuid "2fd62b79-9333-4a95-9951-db43278f21fb")
+		(property "Reference" "C21"
+			(at 94.234 214.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +9645,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 170.434 136.652 0)
+			(at 94.234 216.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9654,7 @@
 			)
 		)
 		(property "Footprint" "FP-C0603C-CF-MFG"
-			(at 167.64 130.81 0)
+			(at 91.44 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +9663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 130.81 0)
+			(at 91.44 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +9672,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 167.64 130.81 0)
+			(at 91.44 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9681,7 @@
 			)
 		)
 		(property "TOLERANCE" "0.1"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9691,7 @@
 			)
 		)
 		(property "TEMPERATURE" "-55°C to +125°C"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9701,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KEMET"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9711,7 @@
 			)
 		)
 		(property "ROHS" "TRUE"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9721,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" "30ppm/°C"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +9731,7 @@
 			)
 		)
 		(property "MATERIAL" "Ceramic"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +9741,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" "+125°C"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +9751,7 @@
 			)
 		)
 		(property "LEAD FREE" "Yes"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +9761,7 @@
 			)
 		)
 		(property "OCTOPART" "https://octopart.com/c0603c104k5ractu-kemet-139244"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9771,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" "CAP CER 0.1UF 50V X7R 0603"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9781,7 @@
 			)
 		)
 		(property "CATEGORY" "Cap"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9791,7 @@
 			)
 		)
 		(property "PACKAGE" "C0603C-CF"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9801,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9811,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" "-55°C"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9821,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" "Passive Components"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9831,7 @@
 			)
 		)
 		(property "AUTOMOTIVE GRADE" "Grade 1"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9841,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "50 V"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9851,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0.10 μF"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9861,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" "Yes"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9871,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" "Ceramic Capacitors"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9881,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9891,7 @@
 			)
 		)
 		(property "CAPACITANCE" "0.10 μF"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9901,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" "Capacitors"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9911,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "C0603C104K5RACTU"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9921,7 @@
 			)
 		)
 		(property "TEMPERATURE CHARACTERISTIC" "X7R"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9931,7 @@
 			)
 		)
 		(property "HEIGHT" "0.87mm"
-			(at 164.846 130.302 0)
+			(at 88.646 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,15 +9941,507 @@
 			)
 		)
 		(pin "1"
-			(uuid "0701cc61-a982-4311-bea6-4da3b860de5a")
+			(uuid "7e39bb73-ac8e-4e0f-816f-7d27b088e847")
 		)
 		(pin "2"
-			(uuid "53e8e1d4-a37e-4b4e-b7e9-d39b48fe1b47")
+			(uuid "142d24d2-c876-42f9-b48b-6f76c95aa9ef")
 		)
 		(instances
 			(project "PALReceiver"
 				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "C22")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Altium Content Vault:root_0_SMTC-SX127X-QFN-28_Altium Content Vault")
+		(at 127 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43ecbb9b-7180-4cc8-b615-6fb052bc9756")
+		(property "Reference" "U2"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SX1276IMLTRT"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMTC-QFN-28_V"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Power Long Range Transceiver, 137 to 1020 MHz, -40 to 85 degC, 28-Pin QFN, RoHS, Tape and Reel"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER - OUTPUT" "20dBm"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "-"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATA RATE (MAX)" "300kbps"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER URL" "http://www.semtech.com/"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET URL" "http://www.semtech.com/images/datasheet/sx1276.pdf"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SENSITIVITY" "-148dBm"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FEATURED PRODUCT" "SX1276LongRangeTransceiver"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "TxRx+MCU"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RF FAMILY/STANDARD" "802.15.4"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCN DESIGN/SPECIFICATION" "CopperWire25/Mar/2014"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE REFERENCE" "QFN-28"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GPIO" "6"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" "137MHz~1.02GHz"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD PACKAGE" "3,000"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE DESCRIPTION" "28-Pin Quad Flat No-lead Package, Body 6 x 6 mm, Pitch 0.65 mm"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE - SUPPLY" "1.8V~3.7V"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" "RF/IFandRFID"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PROTOCOL" "LoRa™"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - TRANSMITTING" "20mA~120mA"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-40degC~85degC"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - RECEIVING" "10.8mA~12mA"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET VERSION" "Rev. 4, 03/2015"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MEMORY SIZE" "-"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ONLINE CATALOG" "SX1276,SX1277andSX1278"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGN RESOURCES" "SX127xReferenceDesignOverviewDevelopmentToolSelector"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Semtech"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIAL INTERFACES" "SPI"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FAMILY" "RFTransceiverICs"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG APPLICATION NOTES" "LoRaModulation:CrystalOscillatorGuidanceSX12xxSoftwareImplementationofDataWhiteningandCRCSX127xLoRaLowEnergyDesignGuideSX127xLoRaModemDesignersGuide"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MODULATION" "FSK,GFSK,GMSK,MSK,OOK"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape&Reel(TR)"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "28-VQFNExposedPad"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OTHER NAMES" "SX1276IMLTRTTR"
+			(at 121.412 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f91abb57-6082-4fba-99fe-d3b7950e0ba7")
+		)
+		(pin "9"
+			(uuid "74fbd0ed-b633-4393-96aa-178a52f30368")
+		)
+		(pin "7"
+			(uuid "0708eaae-b221-4742-ab0a-ec8539a4a244")
+		)
+		(pin "8"
+			(uuid "d0d5ef57-0e4c-41c3-97ce-0ef446e9ab94")
+		)
+		(pin "14"
+			(uuid "20b91d77-5760-45f7-9ad5-3ee856ee60a6")
+		)
+		(pin "15"
+			(uuid "9daa29b9-617b-44a4-82be-4a9a5aab1d6d")
+		)
+		(pin "2"
+			(uuid "c2a61409-f352-4342-856e-1aa2721d366f")
+		)
+		(pin "23"
+			(uuid "0f13b8c9-7b3c-446a-b8e5-68ebf173fd37")
+		)
+		(pin "24"
+			(uuid "afb5a8ed-a58a-4114-8e9b-1a6c5843d2a7")
+		)
+		(pin "25"
+			(uuid "27c8a60e-aea1-470d-9202-a566302c4b01")
+		)
+		(pin "26"
+			(uuid "49d57e16-6093-406e-820d-0be4f03dbce9")
+		)
+		(pin "29"
+			(uuid "0c96ac1f-3f38-4b89-80d8-725790c539dd")
+		)
+		(pin "3"
+			(uuid "545a2526-c7c3-4478-aff3-fcdfe195b57d")
+		)
+		(pin "4"
+			(uuid "5568a5de-2eab-4c6c-bbdb-5866f192bbb9")
+		)
+		(pin "1"
+			(uuid "0e512a44-1b2a-40c0-9c5c-57dc8a3f0eff")
+		)
+		(pin "10"
+			(uuid "92c34cd1-74e8-4519-bf8a-b999d1904dab")
+		)
+		(pin "11"
+			(uuid "b3c0eb7e-5a55-4ceb-a437-bc441eaf59a3")
+		)
+		(pin "12"
+			(uuid "f266079a-5f0b-49af-a605-efd59f4888c4")
+		)
+		(pin "13"
+			(uuid "38f656c7-c7b9-44a8-ae62-7c732342e709")
+		)
+		(pin "16"
+			(uuid "9d8beafb-29ab-403d-8a4d-eed161213d5a")
+		)
+		(pin "17"
+			(uuid "a4d6ae18-b516-4fd2-8635-855a7696bba6")
+		)
+		(pin "18"
+			(uuid "d9992c4d-c56d-48ac-92d2-4345d7abff80")
+		)
+		(pin "19"
+			(uuid "1d8feead-20e1-4419-aff6-cb044cc28009")
+		)
+		(pin "20"
+			(uuid "98550dd0-b98a-45d3-a50c-4963e7ab7490")
+		)
+		(pin "21"
+			(uuid "bfbe2d1b-50be-4e30-8a4d-e20dca5b6eb0")
+		)
+		(pin "22"
+			(uuid "f76c476c-1fee-4292-a35c-d3e8e33b72ed")
+		)
+		(pin "27"
+			(uuid "e510ad6b-6b61-4839-872f-33e6f898b87a")
+		)
+		(pin "28"
+			(uuid "e10d7a70-37b8-457a-99a8-520442c304c0")
+		)
+		(pin "5"
+			(uuid "92d76512-92dc-4c22-8b87-ee6847148f61")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -9438,7 +10715,7 @@
 	)
 	(symbol
 		(lib_id "*:root_0_ECS-TXO-25CSMV-320-AM-TR_*")
-		(at 73.66 157.48 0)
+		(at 81.28 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9446,7 +10723,7 @@
 		(dnp no)
 		(uuid "4c381fbb-5d3f-450f-9ad2-6f641edb0aea")
 		(property "Reference" "Y1"
-			(at 58.42 149.86 0)
+			(at 66.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +10732,7 @@
 			)
 		)
 		(property "Value" "ECS-TXO-25CSMV-320-AM-TR"
-			(at 58.42 170.18 0)
+			(at 66.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +10741,7 @@
 			)
 		)
 		(property "Footprint" "C__Users_Public_Documents_SnapEDA Altium Plugin_libraries_SnapEDA_Library_ECS-TXO-25CSMV-320-AM-TR.PcbLib:OSC_ECS-2520S25-250-FN-TR"
-			(at 73.66 157.48 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +10750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 157.48 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +10759,7 @@
 			)
 		)
 		(property "Description" "miniature SMD HCMOS Tight Stability Crystal Oscillator"
-			(at 73.66 157.48 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +10768,7 @@
 			)
 		)
 		(property "MF" "{'manufacturer': u'ECS Inc.'}"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +10778,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +10788,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +10798,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "*"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +10808,7 @@
 			)
 		)
 		(property "MP" "ECS-TXO-25CSMV-320-AM-TR"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +10818,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +10828,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Newark"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +10838,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "69AK8445"
-			(at 52.832 149.86 0)
+			(at 60.452 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,6 +11832,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Radio-altium-import:3V3_CIRCLE")
+		(at 121.92 198.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c4c9add-885b-478e-bb8b-5c334bfd65b9")
+		(property "Reference" "#PWR020"
+			(at 121.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 118.11 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "56de1edc-e7de-48e3-83f7-ff3075971bd2")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio-altium-import:GND_POWER_GROUND")
+		(at 91.44 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ce43e91-ddb2-472a-bb51-c98d16f2c14c")
+		(property "Reference" "#PWR022"
+			(at 91.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8057e79e-f064-4ecb-b1b5-fc722873aaba")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Radio-altium-import:GND_POWER_GROUND")
 		(at 375.92 160.02 0)
 		(unit 1)
@@ -10712,68 +12126,6 @@
 			(project ""
 				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Radio-altium-import:GND_POWER_GROUND")
-		(at 144.78 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69c638ca-1a5c-4ead-9f42-0440e84f3df6")
-		(property "Reference" "#PWR020"
-			(at 144.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "8c61cf70-fc40-4957-8f1a-3a8447353483")
-		)
-		(instances
-			(project "PALReceiver"
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11963,6 +13315,342 @@
 		)
 	)
 	(symbol
+		(lib_name "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_1")
+		(lib_id "Altium Content Vault:root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault")
+		(at 104.14 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7064434a-6e54-4204-9e30-54e321f9f7db")
+		(property "Reference" "C22"
+			(at 106.934 214.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.934 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "FP-C0603C-CF-MFG"
+			(at 104.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 104.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "0.1"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55°C to +125°C"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS" "TRUE"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE COEFFICIENT" "30ppm/°C"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MATERIAL" "Ceramic"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE HIGH" "+125°C"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Yes"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OCTOPART" "https://octopart.com/c0603c104k5ractu-kemet-139244"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY DESCRIPTION" "CAP CER 0.1UF 50V X7R 0603"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" "Cap"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "C0603C-CF"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE LOW" "-55°C"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L1" "Passive Components"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" "Grade 1"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "50 V"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.10 μF"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE" "Yes"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L3" "Ceramic Capacitors"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK2URL" "https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "0.10 μF"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L2" "Capacitors"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "C0603C104K5RACTU"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" "X7R"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.87mm"
+			(at 101.346 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9809f037-2818-4d3e-abec-90790b5c03c0")
+		)
+		(pin "2"
+			(uuid "c26eef00-25c6-41fa-a732-50a866e21a24")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Radio-altium-import:GND_POWER_GROUND")
 		(at 276.86 167.64 0)
 		(unit 1)
@@ -12476,7 +14164,7 @@
 	)
 	(symbol
 		(lib_id "Radio-altium-import:3V3_CIRCLE")
-		(at 35.56 154.94 180)
+		(at 43.18 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12484,7 +14172,7 @@
 		(dnp no)
 		(uuid "85881445-e779-45b9-8668-146e94912e5e")
 		(property "Reference" "#PWR05"
-			(at 35.56 154.94 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,7 +14181,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 35.56 151.13 0)
+			(at 43.18 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +14189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 154.94 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,7 +14197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 154.94 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +14205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 154.94 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,68 +14225,6 @@
 			(project ""
 				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Radio-altium-import:3V3_CIRCLE")
-		(at 139.7 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85881445-e779-45b9-8668-146e94912e5e")
-		(property "Reference" "#PWR021"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 139.7 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "7f5e6347-c1bb-4e69-accc-38542e93e5e4")
-		)
-		(instances
-			(project "PALReceiver"
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12770,7 +14396,7 @@
 	)
 	(symbol
 		(lib_id "Altium Content Vault:root_3_mirrored_236180d848d6139a670b325ea6854c9_Altium Content Vault")
-		(at 99.06 154.94 0)
+		(at 106.68 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12778,7 +14404,7 @@
 		(dnp no)
 		(uuid "91e7f2bf-6325-48ac-885f-5ae6b44e7e80")
 		(property "Reference" "C8"
-			(at 96.52 160.02 0)
+			(at 104.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +14413,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 104.14 160.02 0)
+			(at 111.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +14422,7 @@
 			)
 		)
 		(property "Footprint" "FP-C1608-080-0_1-MFG"
-			(at 99.06 154.94 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +14431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 154.94 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,7 +14440,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors 10nF ±10% 100V X7R SMD 0603"
-			(at 99.06 154.94 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12823,7 +14449,7 @@
 			)
 		)
 		(property "VOLTAGE" "100V"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,7 +14459,7 @@
 			)
 		)
 		(property "DIELECTRIC" "X7R"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +14469,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +14479,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +14489,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0603"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +14499,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +14509,7 @@
 			)
 		)
 		(property "RESISTOR TYPE" "Ceramic"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12893,7 +14519,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" "1608"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,7 +14529,7 @@
 			)
 		)
 		(property "LEAD FREE" "Lead Free"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +14539,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12923,7 +14549,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" "No"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12933,7 +14559,7 @@
 			)
 		)
 		(property "DEPTH" "0.8mm"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +14569,7 @@
 			)
 		)
 		(property "THICKNESS" "0.037inch"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12953,7 +14579,7 @@
 			)
 		)
 		(property "LENGTH" "1.6mm"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +14589,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" "0603"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +14599,7 @@
 			)
 		)
 		(property "REACH SVHC" "No SVHC"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +14609,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +14619,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" "100V"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +14629,7 @@
 			)
 		)
 		(property "SERIES" "C"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +14639,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13023,7 +14649,7 @@
 			)
 		)
 		(property "CONSTRUCTION" "Flat"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +14659,7 @@
 			)
 		)
 		(property "NUMBER OF PINS" "2"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +14669,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" "1"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +14679,7 @@
 			)
 		)
 		(property "TERMINATION" "SMD/SMT"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +14689,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "100V"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13073,7 +14699,7 @@
 			)
 		)
 		(property "CAPACITANCE" "10nF"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,7 +14709,7 @@
 			)
 		)
 		(property "HEIGHT" "0.8mm"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13093,7 +14719,7 @@
 			)
 		)
 		(property "WIDTH" "0.8mm"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +14729,7 @@
 			)
 		)
 		(property "WEIGHT" "7.1E-05oz"
-			(at 98.552 152.146 0)
+			(at 106.172 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +14761,7 @@
 	)
 	(symbol
 		(lib_id "Altium Content Vault:root_0_mirrored_236180d848d6139a670b325ea6854c9_Altium Content Vault")
-		(at 38.1 160.02 0)
+		(at 45.72 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13143,7 +14769,7 @@
 		(dnp no)
 		(uuid "94735806-b21f-4ba7-ab71-21b6bd197a62")
 		(property "Reference" "C11"
-			(at 40.894 163.322 0)
+			(at 48.514 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13152,7 +14778,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 40.894 165.862 0)
+			(at 48.514 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +14787,7 @@
 			)
 		)
 		(property "Footprint" "FP-C1608-080-0_1-MFG"
-			(at 38.1 160.02 0)
+			(at 45.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +14796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 160.02 0)
+			(at 45.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +14805,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors 10nF ±10% 100V X7R SMD 0603"
-			(at 38.1 160.02 0)
+			(at 45.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +14814,7 @@
 			)
 		)
 		(property "VOLTAGE" "100V"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +14824,7 @@
 			)
 		)
 		(property "DIELECTRIC" "X7R"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +14834,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +14844,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +14854,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "0603"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13238,7 +14864,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +14874,7 @@
 			)
 		)
 		(property "RESISTOR TYPE" "Ceramic"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13258,7 +14884,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" "1608"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,7 +14894,7 @@
 			)
 		)
 		(property "LEAD FREE" "Lead Free"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,7 +14904,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13288,7 +14914,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" "No"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13298,7 +14924,7 @@
 			)
 		)
 		(property "DEPTH" "0.8mm"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +14934,7 @@
 			)
 		)
 		(property "THICKNESS" "0.037inch"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +14944,7 @@
 			)
 		)
 		(property "LENGTH" "1.6mm"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +14954,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" "0603"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +14964,7 @@
 			)
 		)
 		(property "REACH SVHC" "No SVHC"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +14974,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +14984,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" "100V"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +14994,7 @@
 			)
 		)
 		(property "SERIES" "C"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +15004,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +15014,7 @@
 			)
 		)
 		(property "CONSTRUCTION" "Flat"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +15024,7 @@
 			)
 		)
 		(property "NUMBER OF PINS" "2"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +15034,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" "1"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +15044,7 @@
 			)
 		)
 		(property "TERMINATION" "SMD/SMT"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13428,7 +15054,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "100V"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13438,7 +15064,7 @@
 			)
 		)
 		(property "CAPACITANCE" "10nF"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +15074,7 @@
 			)
 		)
 		(property "HEIGHT" "0.8mm"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +15084,7 @@
 			)
 		)
 		(property "WIDTH" "0.8mm"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +15094,7 @@
 			)
 		)
 		(property "WEIGHT" "7.1E-05oz"
-			(at 35.306 159.512 0)
+			(at 42.926 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14602,336 +16228,6 @@
 			(project ""
 				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault_4")
-		(lib_id "Altium Content Vault:root_0_b4654b650e69147ec39a6b967a45e02_Altium Content Vault")
-		(at 156.21 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8eeaf8b-7e6c-49a1-86bc-9315a1621eac")
-		(property "Reference" "C21"
-			(at 159.004 134.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 159.004 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "FP-C0603C-CF-MFG"
-			(at 156.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 156.21 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "0.1"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" "-55°C to +125°C"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "KEMET"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "TRUE"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "30ppm/°C"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" "Ceramic"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE HIGH" "+125°C"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Yes"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OCTOPART" "https://octopart.com/c0603c104k5ractu-kemet-139244"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY DESCRIPTION" "CAP CER 0.1UF 50V X7R 0603"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Cap"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0603C-CF"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE LOW" "-55°C"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L1" "Passive Components"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTOMOTIVE GRADE" "Grade 1"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "50 V"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0.10 μF"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTOMOTIVE" "Yes"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L3" "Ceramic Capacitors"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "0.10 μF"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L2" "Capacitors"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "C0603C104K5RACTU"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE CHARACTERISTIC" "X7R"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.87mm"
-			(at 153.416 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78a82eaf-da65-454b-a33e-9a3404c2019b")
-		)
-		(pin "2"
-			(uuid "0236acda-df5f-4030-9489-bfd4426724f6")
-		)
-		(instances
-			(project "PALReceiver"
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -16236,157 +17532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF:SX1276")
-		(at 144.78 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78b6e61-c06b-4fbf-b3fb-26072df53a92")
-		(property "Reference" "U2"
-			(at 146.9233 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SX1276"
-			(at 146.9233 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm"
-			(at 144.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE"
-			(at 144.78 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "137 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28"
-			(at 144.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "23"
-			(uuid "7353a8ea-edd1-466e-87ce-6a31388be393")
-		)
-		(pin "13"
-			(uuid "7399336c-d204-434e-a066-eb62113d632b")
-		)
-		(pin "25"
-			(uuid "b104f01a-2f28-401d-91b5-773dbcdb0c85")
-		)
-		(pin "10"
-			(uuid "8b04b1ba-b6dc-48b0-a6e6-c79dab373d3b")
-		)
-		(pin "16"
-			(uuid "13193624-c439-4d37-b796-ec138d256973")
-		)
-		(pin "19"
-			(uuid "f71737cb-96c2-440f-8f9d-c89092672642")
-		)
-		(pin "5"
-			(uuid "2d64970f-ba8d-4d58-9b25-5b5c220b2e99")
-		)
-		(pin "15"
-			(uuid "4461c06a-05e9-427e-9618-a145904fb335")
-		)
-		(pin "8"
-			(uuid "8d74a9cc-a4d1-4cef-af5b-00adb8f74467")
-		)
-		(pin "3"
-			(uuid "9ee04bb5-6e92-42ce-abfa-19ce1e4d448b")
-		)
-		(pin "26"
-			(uuid "012bd0ae-8b1d-47dc-95a9-cad1b7919c29")
-		)
-		(pin "29"
-			(uuid "2bdb7908-bb60-4ff3-896b-86b8ee84cb46")
-		)
-		(pin "12"
-			(uuid "77f32f10-285c-430a-b42e-ab2b69ec61bc")
-		)
-		(pin "2"
-			(uuid "94d8befc-a6e5-48e7-b227-384050abe5ec")
-		)
-		(pin "7"
-			(uuid "061e3e5a-7be7-4459-86af-91342b2bea0a")
-		)
-		(pin "17"
-			(uuid "4e1044de-1979-4431-b01d-6c99a476a830")
-		)
-		(pin "18"
-			(uuid "1593c840-c68c-4df2-be70-7e7864c9ab98")
-		)
-		(pin "9"
-			(uuid "e129ba71-83a7-41e2-886d-16785aa4dcf6")
-		)
-		(pin "11"
-			(uuid "03b2af64-24d4-456c-a110-9225105e1d67")
-		)
-		(pin "14"
-			(uuid "902f024e-6d78-446b-82df-97ca16bcf3b8")
-		)
-		(pin "6"
-			(uuid "074a9521-5277-427b-ad7f-d320e6b99d68")
-		)
-		(pin "24"
-			(uuid "93f496d2-c3ef-4e02-ba5a-e04a9f4e9dfb")
-		)
-		(pin "4"
-			(uuid "bd8d79f2-e3d1-4a54-ab3c-1e57dec0a3a1")
-		)
-		(pin "27"
-			(uuid "4b1a42c5-1ba6-4565-acec-6a8d059d7420")
-		)
-		(pin "28"
-			(uuid "2b0a08fe-ab30-4bc9-83d7-4df9d09659d5")
-		)
-		(pin "21"
-			(uuid "672f834c-b8ab-4755-bfcc-5850db7857ca")
-		)
-		(pin "1"
-			(uuid "4be7b884-67b8-46b9-a12b-6289b4cf7c37")
-		)
-		(pin "20"
-			(uuid "95b1b950-87e8-47cc-88dd-95aaac11aa74")
-		)
-		(pin "22"
-			(uuid "2a55be20-0005-4c37-9966-cb62da5553a5")
-		)
-		(instances
-			(project ""
-				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault_4")
 		(lib_id "Altium Content Vault:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
 		(at 375.92 149.86 0)
@@ -17505,6 +18650,74 @@
 			(project "PALReceiver"
 				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/52aea71b-6429-4bae-a999-5c920a72114d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio-altium-import:GND_POWER_GROUND")
+		(at 160.02 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30f1b98-2745-4a0d-ae85-b9e9b5d51df6")
+		(property "Reference" "#PWR021"
+			(at 160.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e73b39ce-c0ce-4031-974f-a0572931c82e")
+		)
+		(instances
+			(project "PALReceiver"
+				(path "/2785bbdd-da8c-4c23-b498-605d17251f95/c2f76490-46bd-4e35-88e5-589a2205dd1b"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
